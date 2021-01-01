@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <plugin
-    id="cordova-plugin-gps-background"
+    id="cordova-plugin-gpsbackground"
     version="1.0.0"
     xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -12,10 +12,10 @@
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="GPSBackground">
-                <param name="android-package" value="cordova.plugin.gps_background.GPSBackground"/>
+                <param name="android-package" value="cordova.plugin.gpsbackground.GPSBackground"/>
             </feature>
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml"></config-file>
-        <source-file src="src/android/GPSBackground.java" target-dir="src/cordova/plugin/gps_background/GPSBackground"/>
+        <source-file src="src/android/GPSBackground.java" target-dir="src/cordova/plugin/gpsbackground/GPSBackground"/>
     </platform>
 </plugin>
